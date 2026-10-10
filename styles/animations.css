@@ -35,13 +35,16 @@ svg.scene {
   display: block;
   transform: translateZ(0);
   will-change: transform;
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 78%, transparent 98%);
+  mask-image: linear-gradient(to bottom, black 0%, black 78%, transparent 98%);
 }
 
 @media (min-width: 768px) {
   svg.scene {
     height: 78vh;
     height: 78dvh;
-    filter: drop-shadow(0 28px 45px rgba(30, 16, 9, 0.20));
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 98%);
+    mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 98%);
   }
 }
 
