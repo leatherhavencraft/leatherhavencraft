@@ -46,7 +46,7 @@ export function ProductCarousel() {
       </p>
 
       {/* ── Center: Main Model & Interactive SVG Layer ── */}
-      <div className="relative flex flex-col items-center justify-center">
+      <div className="relative flex flex-col items-center justify-center [mask-image:linear-gradient(to_bottom,black_0%,black_78%,transparent_98%)] [-webkit-mask-image:linear-gradient(to_bottom,black_0%,black_78%,transparent_98%)]">
         <svg
           ref={svgRef}
           className="scene relative z-10"
@@ -89,30 +89,7 @@ export function ProductCarousel() {
           </g>
         </svg>
 
-        {/* ── Real Photo Studio Soft Blurry Drop Shadow directly under feet ── */}
-        <div
-          className="pointer-events-none absolute -bottom-3 sm:-bottom-5 left-1/2 -translate-x-1/2 z-0 flex flex-col items-center select-none"
-          aria-hidden="true"
-        >
-          {/* Broad, soft, diffuse photo studio floor falloff shadow */}
-          <div
-            className="w-[360px] sm:w-[420px] lg:w-[480px] h-8 sm:h-10 rounded-[50%]"
-            style={{
-              background:
-                "radial-gradient(ellipse at 50% 50%, rgba(20, 10, 5, 0.35) 0%, rgba(35, 20, 12, 0.18) 45%, rgba(42, 24, 16, 0.04) 75%, transparent 100%)",
-              filter: "blur(12px)",
-            }}
-          />
-          {/* Tighter core contact occlusion shadow grounding the model */}
-          <div
-            className="w-[240px] sm:w-[270px] lg:w-[320px] h-4 sm:h-5 rounded-[50%] -mt-6 sm:-mt-7"
-            style={{
-              background:
-                "radial-gradient(ellipse at 50% 50%, rgba(15, 8, 4, 0.50) 0%, rgba(25, 15, 10, 0.25) 55%, transparent 100%)",
-              filter: "blur(4px)",
-            }}
-          />
-        </div>
+
       </div>
 
       {/* ── Active Jacket Details (Bottom Left) ── */}
