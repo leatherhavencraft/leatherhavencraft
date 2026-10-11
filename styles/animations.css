@@ -27,8 +27,8 @@
 
 svg.scene {
   /* Scaled 1.3x on mobile: 56dvh * 1.3 = 72.8dvh */
-  height: 72.8vh;
-  height: 72.8dvh;
+  height: 87.4vh;
+  height: 87.4dvh;
   width: auto;
   max-width: 100%;
   overflow: visible;
@@ -41,8 +41,8 @@ svg.scene {
 
 @media (min-width: 768px) {
   svg.scene {
-    height: 78vh;
-    height: 78dvh;
+    height: 93.6vh;
+    height: 93.6dvh;
     -webkit-mask-image: linear-gradient(to bottom, black 0%, black 90%, rgba(0,0,0,0.7) 95%, transparent 99%);
     mask-image: linear-gradient(to bottom, black 0%, black 90%, rgba(0,0,0,0.7) 95%, transparent 99%);
   }
