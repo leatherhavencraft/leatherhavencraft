@@ -46,7 +46,7 @@ export function ProductCarousel() {
       </p>
 
       {/* ── Center: Main Model & Interactive SVG Layer ── */}
-      <div className="relative flex flex-col items-center justify-center [mask-image:linear-gradient(to_bottom,black_0%,black_78%,transparent_98%)] [-webkit-mask-image:linear-gradient(to_bottom,black_0%,black_78%,transparent_98%)]">
+      <div className="relative flex flex-col items-center justify-center [mask-image:linear-gradient(to_bottom,black_0%,black_74%,rgba(0,0,0,0.6)_85%,transparent_97%)] [-webkit-mask-image:linear-gradient(to_bottom,black_0%,black_74%,rgba(0,0,0,0.6)_85%,transparent_97%)]">
         <svg
           ref={svgRef}
           className="scene relative z-10"

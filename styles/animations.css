@@ -35,16 +35,16 @@ svg.scene {
   display: block;
   transform: translateZ(0);
   will-change: transform;
-  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 78%, transparent 98%);
-  mask-image: linear-gradient(to bottom, black 0%, black 78%, transparent 98%);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 72%, rgba(0,0,0,0.6) 84%, transparent 97%);
+  mask-image: linear-gradient(to bottom, black 0%, black 72%, rgba(0,0,0,0.6) 84%, transparent 97%);
 }
 
 @media (min-width: 768px) {
   svg.scene {
     height: 78vh;
     height: 78dvh;
-    -webkit-mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 98%);
-    mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 98%);
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, black 74%, rgba(0,0,0,0.6) 85%, transparent 97%);
+    mask-image: linear-gradient(to bottom, black 0%, black 74%, rgba(0,0,0,0.6) 85%, transparent 97%);
   }
 }
 
